@@ -7,7 +7,7 @@
 
 import Foundation
 struct ApplicationConstants {
-    static var instance  = ApplicationConstants()
+    static let instance  = ApplicationConstants()
         
 
     enum FontFamily {
