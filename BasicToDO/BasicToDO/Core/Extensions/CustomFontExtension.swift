@@ -11,7 +11,8 @@ import SwiftUI
 extension Text {
     func customFontModifier(enumVar:ApplicationConstants.FontFamily , size : Double) -> some View {
         self
-            .font(Font.custom(ApplicationConstants.instance.getFont(name: enumVar), size: size))
+            .font(Font
+                    .custom(ApplicationConstants.instance.getFont(name: enumVar), size: size))
         
     }
 }
