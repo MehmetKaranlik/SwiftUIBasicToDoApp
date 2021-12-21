@@ -10,12 +10,10 @@ import SwiftUI
 struct LoginButtonView: View {
     var function : CGFunction?
     var body: some View {
-        Button {
-            print("hello")
-        } label: {
-            buildButtonLabelText()
-            
-        }
+ 
+        buildButtonLabelText()
+      
+       
     }
     
     

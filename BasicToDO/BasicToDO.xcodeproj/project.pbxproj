@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		467EF55A27710AFE0023B270 /* BasicToDOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467EF55927710AFE0023B270 /* BasicToDOApp.swift */; };
-		467EF55C27710AFE0023B270 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467EF55B27710AFE0023B270 /* HomeView.swift */; };
 		467EF57527710C190023B270 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467EF57427710C190023B270 /* StartView.swift */; };
 		467EF57727710C480023B270 /* DynamicSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467EF57627710C480023B270 /* DynamicSpacer.swift */; };
 		467EF57C27710F960023B270 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467EF57B27710F960023B270 /* AppConstants.swift */; };
@@ -30,12 +29,17 @@
 		467EF5C527713A900023B270 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467EF5C427713A900023B270 /* StringConstants.swift */; };
 		467EF5C827713FA20023B270 /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467EF5C727713FA20023B270 /* LoginButtonView.swift */; };
 		467EF5CA277145610023B270 /* AppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467EF5C9277145610023B270 /* AppIconView.swift */; };
+		46E9A6FF2771CC7C00A3208E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E9A6FE2771CC7C00A3208E /* HomeView.swift */; };
+		46E9A7022771D29800A3208E /* HomeViewNoteCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E9A7012771D29800A3208E /* HomeViewNoteCard.swift */; };
+		46E9A7042771D55700A3208E /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E9A7032771D55700A3208E /* BaseView.swift */; };
+		46E9A7072771DB4200A3208E /* LocaleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E9A7062771DB4200A3208E /* LocaleManager.swift */; };
+		46E9A7092771E13300A3208E /* ArrayStorageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E9A7082771E13300A3208E /* ArrayStorageExtension.swift */; };
+		46E9A70C2771F6F000A3208E /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E9A70B2771F6F000A3208E /* SheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		467EF55627710AFE0023B270 /* BasicToDO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicToDO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		467EF55927710AFE0023B270 /* BasicToDOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicToDOApp.swift; sourceTree = "<group>"; };
-		467EF55B27710AFE0023B270 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		467EF55D27710AFF0023B270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		467EF56027710AFF0023B270 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		467EF57427710C190023B270 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
@@ -60,6 +64,12 @@
 		467EF5C427713A900023B270 /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
 		467EF5C727713FA20023B270 /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
 		467EF5C9277145610023B270 /* AppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconView.swift; sourceTree = "<group>"; };
+		46E9A6FE2771CC7C00A3208E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		46E9A7012771D29800A3208E /* HomeViewNoteCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewNoteCard.swift; sourceTree = "<group>"; };
+		46E9A7032771D55700A3208E /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		46E9A7062771DB4200A3208E /* LocaleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleManager.swift; sourceTree = "<group>"; };
+		46E9A7082771E13300A3208E /* ArrayStorageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayStorageExtension.swift; sourceTree = "<group>"; };
+		46E9A70B2771F6F000A3208E /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,7 @@
 		467EF56727710B070023B270 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				46E9A7052771DB3500A3208E /* Managers */,
 				467EF57A27710F300023B270 /* Constants */,
 				467EF56F27710B770023B270 /* Helpers */,
 				467EF56E27710B710023B270 /* Extensions */,
@@ -142,6 +153,7 @@
 		467EF56B27710B2E0023B270 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				46E9A70A2771F6DC00A3208E /* SheetView */,
 				467EF57927710CFC0023B270 /* Base */,
 				467EF57127710BDD0023B270 /* Start */,
 				467EF56C27710B380023B270 /* Home */,
@@ -152,7 +164,7 @@
 		467EF56C27710B380023B270 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				467EF55B27710AFE0023B270 /* HomeView.swift */,
+				46E9A6FE2771CC7C00A3208E /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -169,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				467EF5C027712D570023B270 /* CustomFontExtension.swift */,
+				46E9A7082771E13300A3208E /* ArrayStorageExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -185,6 +198,7 @@
 			children = (
 				467EF5C727713FA20023B270 /* LoginButtonView.swift */,
 				467EF5C9277145610023B270 /* AppIconView.swift */,
+				46E9A7012771D29800A3208E /* HomeViewNoteCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +214,7 @@
 		467EF57927710CFC0023B270 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				46E9A7032771D55700A3208E /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -232,6 +247,22 @@
 				467EF5A2277125080023B270 /* ImperialScript-Regular.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		46E9A7052771DB3500A3208E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				46E9A7062771DB4200A3208E /* LocaleManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		46E9A70A2771F6DC00A3208E /* SheetView */ = {
+			isa = PBXGroup;
+			children = (
+				46E9A70B2771F6F000A3208E /* SheetView.swift */,
+			);
+			path = SheetView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,11 +349,16 @@
 				467EF57527710C190023B270 /* StartView.swift in Sources */,
 				467EF5C127712D570023B270 /* CustomFontExtension.swift in Sources */,
 				467EF5C527713A900023B270 /* StringConstants.swift in Sources */,
+				46E9A7092771E13300A3208E /* ArrayStorageExtension.swift in Sources */,
+				46E9A7042771D55700A3208E /* BaseView.swift in Sources */,
+				46E9A6FF2771CC7C00A3208E /* HomeView.swift in Sources */,
+				46E9A7022771D29800A3208E /* HomeViewNoteCard.swift in Sources */,
+				46E9A70C2771F6F000A3208E /* SheetView.swift in Sources */,
 				467EF5C32771398C0023B270 /* ColorConstants.swift in Sources */,
 				467EF5C827713FA20023B270 /* LoginButtonView.swift in Sources */,
 				467EF57727710C480023B270 /* DynamicSpacer.swift in Sources */,
-				467EF55C27710AFE0023B270 /* HomeView.swift in Sources */,
 				467EF55A27710AFE0023B270 /* BasicToDOApp.swift in Sources */,
+				46E9A7072771DB4200A3208E /* LocaleManager.swift in Sources */,
 				467EF57C27710F960023B270 /* AppConstants.swift in Sources */,
 				467EF5CA277145610023B270 /* AppIconView.swift in Sources */,
 			);

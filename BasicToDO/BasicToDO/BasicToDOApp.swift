@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct BasicToDOApp: App {
+    @AppStorage("isOnbarding") var isOnboarding : Bool = true;
     var body: some Scene {
         WindowGroup {
-            ContentView()
+        StartView()
         }
     }
 }
